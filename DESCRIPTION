@@ -1,0 +1,36 @@
+Package: irtb
+Title: Bayesian Item Response Theory Models Using Stan
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mark", 
+           family = "Andrews",
+           email = "mark.andrews@ntu.ac.uk", 
+           role = c("aut", "cre"))
+Description: High level functions for doing Bayesian Item Response Theory (IRT) 
+  analysis with Stan.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Biarch: true
+Depends: 
+    R (>= 3.4.0)
+Imports: 
+    tidybayes (>= 3.0.2.9000),
+    rlang (>= 1.0.6),
+    methods (>= 4.2.2),
+    Rcpp (>= 0.12.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    rstantools (>= 2.2.0),
+    dplyr (>= 1.0.10),
+    tibble (>= 3.1.8),
+    formula.tools (>= 1.7.1)
+LinkingTo: 
+    BH (>= 1.66.0),
+    Rcpp (>= 0.12.0),
+    RcppEigen (>= 0.3.3.3.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    StanHeaders (>= 2.18.0)
+SystemRequirements: GNU make
